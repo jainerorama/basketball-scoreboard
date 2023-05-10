@@ -4,14 +4,14 @@ body {
 }
 
 @font-face {
-    src: url("fonts/CursedTimerUlil-Aznm.ttf");
+    src: url("../fonts/CursedTimerUlil-Aznm.ttf");
     font-family: CursedTimer;
 }
 
 /*------Organising---layout------*/
 
 #hero {
-     background-image: url(imgs/basketball-court.jpg);
+     background-image: url(../imgs/basketball-court.jpg);
      background-size: cover;
 }
 
