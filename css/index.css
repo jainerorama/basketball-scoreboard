@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background: #E5E5E5;
+}
+
+@font-face {
+    src: url("fonts/CursedTimerUlil-Aznm.ttf");
+    font-family: CursedTimer;
+}
+
+/*------Organising---layout------*/
+
+#hero {
+     background-image: url(imgs/basketball-court.jpg);
+     background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    background: rgba(000, 000, 000, 0.7);
+}
+
+.board-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/*------Boards------*/
+.boards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----Home---Board----*/
+#board-home {
+    margin-left: 82px;
+}
+
+/*----Guest---Board----*/
+#board-guest {
+    margin-right: 83px;;
+}
+
+/*------Organising--Counter------*/
+.counter-container {
+    width: 155px;
+    height: 120px;
+    background: #121417;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.counter {
+    color: #Ff4F6D;
+    font-family: CursedTimer;
+    font-size: 90px;
+}
+
+/*------Organising---Buttons------*/
+
+.btn-container {
+    margin: 26px 0 70px;
+}
+
+.btn {
+    color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    background: none;
+    border: 2px solid #9AABD8; 
+    font-family: CursedTimer;
+    border-radius: 5px;
+}
+
+/*---New---Game---Button---*/
+
+.new-game-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 40px;  
+}
+
+#new-game-btn {
+    padding: 8px 12px;
+    border: 1px solid #9AABD8;
+    border-radius: 10px;
+    background: #121417;
+    color: #Ff4F6D;
+    font-family: CursedTimer;
+}
